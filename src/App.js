@@ -1,9 +1,13 @@
+import Formulario from "./Componentes/Form/Formulario";
+import Nav from "./Componentes/Navbar/Nav";
 
 
 function App() {
   return (
     <div className="App">
-      <h1>Hola Mundo</h1>
+    <Nav/>
+    <Formulario/>
+
     </div>
   );
 }
