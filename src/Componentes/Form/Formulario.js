@@ -1,4 +1,3 @@
-import React from "react";
 
 function Formulario() {
   const ValidateInput = (input) => {
@@ -12,8 +11,9 @@ function Formulario() {
     }
   };
 
-  
+
  
+
   return (
     
       <div>
@@ -568,7 +568,7 @@ function Formulario() {
           </div>
           
         </form>
-      
+       
       </div>
     
   );
