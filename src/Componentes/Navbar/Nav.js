@@ -1,4 +1,9 @@
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faCode } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
+
+
 
 const Nav = () => {
   return (
@@ -20,12 +25,13 @@ const Nav = () => {
           <a className="nav-link text-white" href="/#">Link</a>
         </li>
         
-        
+       
       </ul>
-      <form className="d-flex" role="search">
-        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"></input>
-        <button className="btn btn-outline-success" type="submit">Search</button>
-      </form>
+       <div className='row'>
+       <div className='col-md-4'><a href="https://github.com" target="_blank"> <FontAwesomeIcon icon={faGithub} style={{fontSize:40, color:'white'}}/> </a></div>
+       <div className='col-md-4'><a href="https://github.com" target="_blank"> <FontAwesomeIcon icon={faCode} style={{fontSize:40, color:'white'}}/> </a></div>
+       <div className='col-md-4'><a href="https://github.com" target="_blank"> <FontAwesomeIcon icon={faLinkedin} style={{fontSize:40, color:'white'}}/> </a></div>
+       </div>
     </div>
   </div>
 </nav>
